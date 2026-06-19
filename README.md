@@ -7,9 +7,9 @@ I build production-grade machine learning pipelines engineered specifically for 
 
 ### What I've built
 
-- **[NIDS](https://github.com/sayantika-mlsec/network-intrusion-detection-system-project.git)** — Catches network intrusions in CICIDS2017 traffic. XGBoost + SHAP, tuned so it doesn't cry wolf, with Evidently AI watching for drift in production.
+- **[NIDS](https://github.com/sayantika-mlsec/network-intrusion-detection-system-project.git)** — Catches network intrusions in CICIDS2017 traffic. XGBoost + SHAP, tuned so it doesn't cry wolf, with Evidently AI watching for data drift.
 - **[UEBA](https://github.com/sayantika-mlsec/insider-threat-detection-project.git)** — Spots the insider who's behaving *almost* normally. Isolation Forest + anomaly scoring on the CERT dataset.
-- **[Threat Intel Assistant](https://github.com/sayantika-mlsec/RAG-Powered-Threat-Intelligence-Assistant.git)** — A RAG system that answers security questions by actually reading MITRE ATT&CK and CISA KEV, not guessing. Agentic routing decides what to retrieve and a real eval suite checks it's not hallucinating.
+- **[Threat Intel Assistant](https://github.com/sayantika-mlsec/RAG-Powered-Threat-Intelligence-Assistant.git)** — A RAG system that answers security questions by actually reading MITRE ATT&CK and CISA KEV, not guessing.
 
   
 ### Right now
