@@ -14,7 +14,7 @@ I build production-grade machine learning pipelines engineered specifically for 
   
 ### Right now
  
- Every week I write up a real bug from one of these pipelines on **[X](https://x.com/sayantika1379)** — data leakage, label corruption, the bugs that pass code review and fail in production. I'm also rolling the same MLOps stack out across UEBA and the Threat Intel Assistant — tracked experiments and drift monitoring on every project, not just NIDS.
+Implementing an **agentic routing layer** for the RAG threat-intelligence assistant (MITRE ATT&CK + CISA KEV) — a Gemini structured-output router that decides which corpus to retrieve from (or whether to skip retrieval entirely) before the RAG pipeline runs. Currently running A/B evals of the routed pipeline against a blind-retrieval baseline to measure whether routing actually improves precision — and using the results to localize where the system breaks next.
  
 ### Stack
  
