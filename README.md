@@ -1,9 +1,10 @@
 # Hi there, I'm Sayantika 👋
 
-### AI-Native Security ML Engineer 
-**Focusing on Adversarial ML, Network Threat Detection, and Automated LLM Triage Systems**
+# ML Engineer
 
-I build production-grade machine learning pipelines engineered specifically for cybersecurity infrastructure. My focus bridges classical anomaly detection, robust MLOps practices, and defensive GenAI evaluation.
+**Network Threat Detection**
+
+I build production-grade machine learning pipelines. My focus bridges classical anomaly detection, robust MLOps practices, and defensive GenAI evaluation.
 
 ### What I've built
 
