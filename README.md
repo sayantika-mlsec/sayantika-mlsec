@@ -1,10 +1,8 @@
 # Hi there, I'm Sayantika 👋
+# AI Engineer
+**Evaluation & Reliability for LLM Systems**
 
-# ML Engineer
-
-**Network Threat Detection**
-
-I build production-grade machine learning pipelines. My focus bridges classical anomaly detection, robust MLOps practices, and defensive GenAI evaluation.
+I build LLM systems and the evaluation harnesses that tell me whether they're actually working — retrieval, agent design, and measurement I can defend. My background is anomaly detection and network security, where the hard problem was never detection. It was getting anyone to believe the alerts.
 
 ### What I've built
 
@@ -14,8 +12,11 @@ I build production-grade machine learning pipelines. My focus bridges classical 
 
   
 ### Right now
+
+Building an agent that reads an unfamiliar repository and generates grounded questions about it — tree-sitter navigation, a bounded tool loop, and a deterministic citation verifier with no LLM in that layer. Held-out repos pinned before any code existed, scored exactly twice. Evaluated by ablation rather than by adding features until the demo looks good.
  
-Implementing an **agentic routing layer** for the RAG threat-intelligence assistant (MITRE ATT&CK + CISA KEV) — a Gemini structured-output router that decides which corpus to retrieve from (or whether to skip retrieval entirely) before the RAG pipeline runs. Currently running A/B evals of the routed pipeline against a blind-retrieval baseline to measure whether routing actually improves precision — and using the results to localize where the system breaks next.
+### Recently
+Implemented an **agentic routing layer** for the RAG threat-intelligence assistant (MITRE ATT&CK + CISA KEV) — a Gemini structured-output router that decides which corpus to retrieve from (or whether to skip retrieval entirely) before the RAG pipeline runs. Currently running A/B evals of the routed pipeline against a blind-retrieval baseline to measure whether routing actually improves precision — and using the results to localize where the system breaks next.
  
 ### Stack
  
